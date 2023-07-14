@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock de Tienda de Zapatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <span class="navbar-brand mb-0 h1">Stock de Productos</span>
+        <div class="collapse navbar-colapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ventas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Codigo Postal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Provedores</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+    <div class="table-responsive-md" style="display: none;">
+        <table class="table">
+            <caption>Clientes</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">DNI</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Codigo Postal</th>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Telefono Fijo</th>
+                    <th scope="col">Telefono Celular</th>
+                    <th scope="col">Correo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr style="background-color: aquamarine;">
+                    <th scope="col">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="display: none;">
+        <table class="table">
+            <caption>Ventas</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id Venta</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Id Producto</th>
+                    <th scope="col">DNI</th>
+                    <th scope="col">Monto</th>
+                    <th scope="col">Forma Pago</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="display: none;">
+        <table class="table">
+            <caption>Productos</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id Producto</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Talle</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Stock</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="display: none;">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Codigo Postal</th>
+                    <th scope="col">Localidad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-responsive-md" style="display: none;">
+        <table class="table ">
+            <caption>Provedores</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id Provedores</th>
+                    <th scope="col">Nro Puesto</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Codigo Postal</th>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Telefono Fijo</th>
+                    <th scope="col">Telefono Celular</th>
+                    <th scope="col">Correo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="col">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
